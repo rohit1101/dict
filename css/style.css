@@ -128,7 +128,19 @@ h1 {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
-  transition: all 2s;
+  transition: all 0.5s;
+  animation-name: mod;
+  animation-duration: 0.5s;
+}
+
+@keyframes mod {
+  0% {
+    /* transform: translateX(-900px); */
+    transform: translateY(-900px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .modal-header {
