@@ -1,3 +1,3 @@
-# Dict 
+# Dictionary 
   >Urban-Dictionary App
   
